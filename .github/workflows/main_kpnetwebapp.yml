@@ -54,4 +54,4 @@ jobs:
           app-name: 'kpnetwebapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E51761790B2E4233B9A67B6E7EA713B9 }}
-          package: ./publish
+          package: .
